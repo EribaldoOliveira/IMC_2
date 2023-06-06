@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Calculadora_IMC</title>
+</head>
+
+<body>
+
+	<div class="formatacao">
+
+		<form class="form" onsubmit="return calcular(event)">
+			<label>Digite seu peso:</label> <br/><br/>
+			<input type="text" name="peso" id="peso" placeholder="Exemplo: 65"/> <br/><br/><br/>
+
+			<label>Digite sua altura:</label> <br/><br/>
+			<input type="text" name="altura" id="altura" placeholder="Exemplo: 1.90"/><br/><br/><br/>
+
+			<input class="calcular" type="submit" value="Calcular IMC">
+		</form>
+
+	</div>
+
+	<div id="resultado"></div>
+
+	
+
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+

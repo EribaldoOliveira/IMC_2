@@ -1,0 +1,46 @@
+*{
+	background: #D3D3D3;
+}
+
+.form{
+
+	position: relative;
+	text-align: center;
+	margin-top: 60px;
+/*	border: 2px solid black;*/
+}
+
+input{
+	background: #f5deb3;
+	font-size: 2rem;
+}
+
+label{
+	font-size: 2rem;
+}
+
+.calcular {
+	background: yellow;
+	width: 250px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+.calcular:hover{
+	box-align: center;
+	background: orange;
+	width: 250px;
+	color: black;
+}
+
+#resultado{
+	background: yellow;
+	text-align: center;
+	font-size: 2em;
+	padding-bottom: 3rem;
+	width: 500px;
+	height: 120px;
+	margin-left: 460px;
+	width: 350px;
+	border: 1px solid red;
+}
